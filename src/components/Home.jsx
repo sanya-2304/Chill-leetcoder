@@ -60,7 +60,7 @@ import Footer from './Footer';
           <img src={ChillGuy}  alt="Chill Leetcoder" className="w-[600px] h-auto" />
         </div>
         <ToastContainer  />
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     )
   }
