@@ -1,14 +1,18 @@
   import React, { useState } from 'react'
-  import ChillGuy from '../assets/chill_guy.png';
+  import ChillGuy from '../assets/chill_guy.png'
   import 'react-toastify/dist/ReactToastify.css'
   import { ToastContainer, toast } from 'react-toastify';
   import { useNavigate } from 'react-router-dom';
   import axios from 'axios'
 import Footer from './Footer';
   const Home = () => {
-    const [username, setUsername] = useState('')
+    const [username, setUsername] = useState('sanyadoda')
     const navigate=useNavigate();
-    
+    const handleKeyDown = (e) => {
+      if (e.key === "Enter") {
+        handleIp();
+      }
+    };
     const handleIp=async ()=>{
       if(username.trim()===''){
         toast.error('Please enter your username first!',  {
@@ -42,7 +46,7 @@ import Footer from './Footer';
           <h1 className="text-3xl font-bold text-orange-500 mb-4">Are you a chill leetcoder?</h1>
           <h2 className="text-lg text-gray-700 mb-6 font-semibold">Find Out Whether You're a Vibe or Simply a Coder</h2>
           <input
-            type="text" value={username} onChange={(e)=>setUsername(e.target.value)}
+            type="text" value={username} onChange={(e)=>setUsername(e.target.value)} onKeyDown={handleKeyDown}
             placeholder="Enter your LeetCode username"
             className="w-full p-2 mb-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-300" required
           />

@@ -146,7 +146,7 @@ const Analyser = () => {
   return (
     <>
       <nav className="flex items-center justify-between bg-gray-800">
-        <h1 className="text-4xl p-6 font-bold text-white  rounded-xl m-2  ">
+        <h1 className="text-4xl p-6 font-bold text-white  rounded-xl m-2  hover:text-green-600">
           Welcome  {username} !
         </h1>
         <img src={ChillGuy} alt="Chill Leetcoder" className="w-[100px] h-auto m-4" />
@@ -161,15 +161,15 @@ const Analyser = () => {
             <SmallCard a={data.mediumSolved} b={data.totalMedium} c="Medium" />
             <SmallCard a={data.hardSolved} b={data.totalHard} c="Hard" />
           </div>
-          <div className="bg-white rounded-xl flex items-center justify-center p-2 mt-3">
-            <h1 className="text-2xl font-bold text-orange-400 px-3">
+          <div className="bg-white rounded-xl flex items-center justify-center p-2 mt-3 hover:bg-green-300">
+            <h1 className="text-2xl font-bold text-orange-400 px-3 ">
               Ranking <span className="text-black font-semibold"> - {data.ranking}</span>
             </h1>
           </div>
         </div>
-        <div className="bg-gray-800 rounded-2xl w-[600px] p-5 flex flex-col m-3 items-center ml-20">
-          <h1 className="text-3xl font-bold text-orange-400 bg-white  rounded-xl flex items-center justify-center px-4 py-2 mt-2">{chillness} Chill Leetcoder</h1>
-          <p className="text-xl text-black mt-4 font-semibold font-mono bg-white  rounded-xl flex items-center justify-center p-4 mt-3">{description}</p>
+        <div className="bg-gray-800 rounded-2xl w-[600px] p-5 flex flex-col m-3 items-center ml-20 ">
+          <h1 className="text-3xl font-bold text-orange-400 bg-white  rounded-xl flex items-center justify-center px-4 py-2 mt-2 hover:bg-green-300">{chillness} Chill Leetcoder</h1>
+          <p className="text-xl text-black mt-4 font-semibold font-mono bg-white  rounded-xl flex items-center justify-center p-4 mt-3 hover:bg-green-300">{description}</p>
         </div>
       </div>
       <Footer/>
