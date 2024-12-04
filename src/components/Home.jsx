@@ -57,7 +57,7 @@ import Footer from './Footer';
 
         {/* Image */}
         <div className="flex items-center ">
-          <img src={ChillGuy}  alt="Chill Leetcoder" className="w-[600px] h-auto" />
+          <img src={ChillGuy}  alt="Chill Leetcoder" className="w-[750px] h-auto" />
         </div>
         <ToastContainer  />
         {/* <Footer/> */}
