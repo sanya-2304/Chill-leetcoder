@@ -1,4 +1,4 @@
-Chill Leetcoder Analyzer
+<h1>Chill Leetcoder Analyzer</h1>
 Find out whether you're a Vibe or simply a Coder with the Chill Leetcoder Analyzer. Inspired by Harsh Dwivedi's Chill Guy Analyzer, this tool uses your LeetCode stats to evaluate your chillness level in a fun, hilarious, and Gen Z-inspired way. 🌟
 
 Features
@@ -25,8 +25,11 @@ Loved it? Found a bug? Share your thoughts or results in the comments or drop me
 
 Made with ❤️ by Sanya Doda
 Connect with me:
+<br/>
 <a href="https://www.linkedin.com/in/sanya-doda-774241216/"> Linkedin </a>
-LinkedIn
-Twitter
-LeetCode
+<br/>
+<a href="https://x.com/TheOneWithSanya"> Twitter </a>
+<br/>
+<a href="https://leetcode.com/Sanyadoda/"> Leetcode </a>
+<br/>
 Happy analyzing! 🎉
