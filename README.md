@@ -25,7 +25,7 @@ Loved it? Found a bug? Share your thoughts or results in the comments or drop me
 
 Made with ❤️ by Sanya Doda
 Connect with me:
-
+<a href="https://www.linkedin.com/in/sanya-doda-774241216/"> Linkedin </a>
 LinkedIn
 Twitter
 LeetCode
